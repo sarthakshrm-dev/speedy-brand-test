@@ -218,7 +218,7 @@ const App = () => {
               onChange={handleBlogContentChange}
               style={{ height: "300px", marginBottom: "16px" }}
             />
-            <div className="mt-4 flex space-x-4">
+            <div className="mt-12 flex space-x-4">
               <button
                 className="px-4 py-2 rounded-md bg-blue-500 text-white"
                 onClick={generateArticle}
